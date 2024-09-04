@@ -12,7 +12,7 @@ body {
     color: #434455;
     background-color: #ffffff;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 24px;
 }
 .link-big{
@@ -27,6 +27,9 @@ color: #4d5ae5;
 span{
     color: #2e2f42;
 }
+.link-big-l span{
+color: #f4f4fd;
+}
 li {
     list-style: none;
 }
@@ -38,7 +41,6 @@ a {
 .link {
     color: #2e2f42;
     font-weight: 500;
-    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -47,10 +49,11 @@ a {
 }
 .contacts{
     font-style: normal;
-    letter-spacing: 0.02em;
-    color: #434455;
+    
 }
-
+.contacts .link{
+color: #434455;
+}
 .hero-image {
     background-color: #2E2F42;
     color: #ffffff;
@@ -59,12 +62,16 @@ a {
 .main-title {
     text-align: center;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
 }
 
 .btn-link {
     background-color: #4D5AE5;
     color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 .btn-link:hover,
@@ -72,17 +79,24 @@ a {
     background-color: #404BBF;
 }
 
-.h3-title {
-    font-weight: mediun;
+.title3 {
+    font-weight: 500;
     font-size: 20px;
+    color: #2e2f42;
+
 }
 
-.section2 {
+.section-a {
     background-color: #F4F4FD;
+
 }
 
 .subtitle {
     font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.11;
+    color: #2e2f42;
 }
 
 .item {
@@ -92,4 +106,7 @@ a {
 .footer {
     background-color: #2E2F42;
     color: #ffffff;
+}
+.pstyle{
+    color: #F4F4FD;
 }
