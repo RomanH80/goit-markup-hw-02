@@ -27,7 +27,7 @@ color: #4d5ae5;
 span{
     color: #2e2f42;
 }
-.link-big-l span{
+.text{
 color: #f4f4fd;
 }
 li {
@@ -45,7 +45,7 @@ a {
 
 .link:hover,
 .link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 .contacts{
     font-style: normal;
@@ -63,6 +63,7 @@ color: #434455;
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .btn-link {
@@ -79,11 +80,11 @@ color: #434455;
     background-color: #404BBF;
 }
 
-.title3 {
+.title-m {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
-
+    letter-spacing: 0.02em;
 }
 
 .section-a {
@@ -97,6 +98,7 @@ color: #434455;
     text-align: center;
     line-height: 1.11;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 
 .item {
